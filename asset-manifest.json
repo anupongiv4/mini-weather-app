@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mini-weather-app/static/css/main.9484f875.chunk.css",
-    "main.js": "/mini-weather-app/static/js/main.ff6c647e.chunk.js",
-    "main.js.map": "/mini-weather-app/static/js/main.ff6c647e.chunk.js.map",
+    "main.css": "/mini-weather-app/static/css/main.b48552dc.chunk.css",
+    "main.js": "/mini-weather-app/static/js/main.d4d5e365.chunk.js",
+    "main.js.map": "/mini-weather-app/static/js/main.d4d5e365.chunk.js.map",
     "runtime-main.js": "/mini-weather-app/static/js/runtime-main.06a8dd91.js",
     "runtime-main.js.map": "/mini-weather-app/static/js/runtime-main.06a8dd91.js.map",
     "static/js/2.de9a5ad0.chunk.js": "/mini-weather-app/static/js/2.de9a5ad0.chunk.js",
     "static/js/2.de9a5ad0.chunk.js.map": "/mini-weather-app/static/js/2.de9a5ad0.chunk.js.map",
     "index.html": "/mini-weather-app/index.html",
-    "precache-manifest.95126bc67de5418a349bd43ba8faedcd.js": "/mini-weather-app/precache-manifest.95126bc67de5418a349bd43ba8faedcd.js",
+    "precache-manifest.93fc074a8b423453d469659cd9af79b1.js": "/mini-weather-app/precache-manifest.93fc074a8b423453d469659cd9af79b1.js",
     "service-worker.js": "/mini-weather-app/service-worker.js",
-    "static/css/main.9484f875.chunk.css.map": "/mini-weather-app/static/css/main.9484f875.chunk.css.map",
+    "static/css/main.b48552dc.chunk.css.map": "/mini-weather-app/static/css/main.b48552dc.chunk.css.map",
     "static/js/2.de9a5ad0.chunk.js.LICENSE.txt": "/mini-weather-app/static/js/2.de9a5ad0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.06a8dd91.js",
     "static/js/2.de9a5ad0.chunk.js",
-    "static/css/main.9484f875.chunk.css",
-    "static/js/main.ff6c647e.chunk.js"
+    "static/css/main.b48552dc.chunk.css",
+    "static/js/main.d4d5e365.chunk.js"
   ]
 }
