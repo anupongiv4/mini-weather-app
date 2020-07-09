@@ -32,6 +32,7 @@ class WeatherApp extends React.Component {
                 throw new Error('Request Failed!');
             }, networkError => console.log(networkError.message))
             .then(jsonResponse => {
+                console.log(jsonResponse);
                 const place = jsonResponse.name;
                 const condition = jsonResponse.weather[0].description;
                 const celsius = jsonResponse.main.temp;
@@ -88,7 +89,7 @@ class WeatherApp extends React.Component {
                 <div className="content" >
                     <h2>{this.state.place}</h2>
                     <h1>{celsius} &#8451; </h1>
-                    <h2>It's {this.state.condition} today</h2>
+                    <h2>{this.state.condition}</h2>
                     <h3>{this.dateBuilder(new Date())}</h3>
                 </div>
                 <div className="logo-am">
