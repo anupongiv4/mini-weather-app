@@ -1,0 +1,79 @@
+/* Background*/
+.weatherBackground {
+    width: 100%;
+    min-width: 420px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+
+/* End Background*/
+
+/* Search Bar */
+.weatherBackground form {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar {
+    padding: 10px;
+    margin: 0 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.searchBar:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    background-color: unset;
+    color: white;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+/* End Search Bar */
+
+/* Display content */
+.content {
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+@media screen and (min-width: 800px) {
+    .content {
+        font-size: 30px;
+        height: 700px;
+    }
+}
+
+/* End Display content */
+
+/* Logo */
+.logo-am img {
+    width: 100px;
+    margin-top: 10px;
+}
+/* end logo */
