@@ -1,7 +1,6 @@
 /* Background*/
 .weatherBackground {
     width: 100%;
-    min-width: 420px;
     display: flex;
     align-items: center;
     flex-direction: column;
