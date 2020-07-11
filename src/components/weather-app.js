@@ -9,7 +9,8 @@ class WeatherApp extends React.Component {
             value: '',
             place: 'Mini weather app',
             celsius: '',
-            condition: 'a wonderful day',
+            condition: 'Have a wonderful day!',
+            icon: '03d'
         };
 
         this.handleUserInput = this.handleUserInput.bind(this);
@@ -36,8 +37,9 @@ class WeatherApp extends React.Component {
                 const place = jsonResponse.name;
                 const condition = jsonResponse.weather[0].description;
                 const celsius = jsonResponse.main.temp;
+                const icon = jsonResponse.weather[0].icon;
 
-                this.updateInfo(place, celsius, condition);
+                this.updateInfo(place, celsius, condition, icon);
             });
         } else {
             return;
@@ -59,11 +61,12 @@ class WeatherApp extends React.Component {
         return `${day} ${date} ${month} ${year}`
     }
 
-    updateInfo(place, celsius, condition) {
+    updateInfo(place, celsius, condition, icon) {
         this.setState({
             place: place,
             celsius: celsius,
-            condition: condition
+            condition: condition,
+            icon: icon
         });
     }
 
@@ -89,6 +92,7 @@ class WeatherApp extends React.Component {
                 <div className="content" >
                     <h2>{this.state.place}</h2>
                     <h1>{celsius} &#8451; </h1>
+                    <img src={`http://openweathermap.org/img/w/${this.state.icon}.png`} alt="weather icon" />
                     <h2>{this.state.condition}</h2>
                     <h3>{this.dateBuilder(new Date())}</h3>
                 </div>

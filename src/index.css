@@ -3,4 +3,6 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Varela Round', sans-serif;
+    min-height: 100%;
+    height: auto;
 }

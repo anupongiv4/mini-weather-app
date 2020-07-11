@@ -2,7 +2,6 @@
 .weatherBackground {
     width: 100%;
     min-width: 420px;
-    height: -webkit-fill-available;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,11 +15,12 @@
     padding-top: 20px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .searchBar {
     padding: 10px;
-    margin: 0 10px;
+    margin: 10px 10px;
     border: none;
     background-color: rgba(255, 255, 255, 0.4);
     transition: all 0.5s;
@@ -34,6 +34,7 @@
 button {
     padding: 15px;
     border-radius: 5px;
+    margin: 10px;
     font-size: 20px;
     border: none;
     text-align: center;
@@ -51,11 +52,10 @@ button:hover {
 /* Display content */
 .content {
     width: 80%;
-    height: 80vh;
-    min-width: 330px;
+    height: 600px;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,10 +63,14 @@ button:hover {
     color: white;
 }
 
+img {
+    width: 100px;
+}
+
 @media screen and (min-width: 800px) {
     .content {
         font-size: 30px;
-        height: 700px;
+        height: 100vh;
     }
 }
 
