@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea66768062d93354eb67395e217b4144",
+    "revision": "11f9c7d92d0f916af8490d6496d857a1",
     "url": "/mini-weather-app/index.html"
   },
   {
-    "revision": "b0f0675843832d4914a1",
-    "url": "/mini-weather-app/static/css/main.5dc06cd4.chunk.css"
+    "revision": "be1ecfb3c09c8d9ffd91",
+    "url": "/mini-weather-app/static/css/main.ab8e6833.chunk.css"
   },
   {
     "revision": "ad5e60885d0dbc786b66",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-weather-app/static/js/2.de9a5ad0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b0f0675843832d4914a1",
+    "revision": "be1ecfb3c09c8d9ffd91",
     "url": "/mini-weather-app/static/js/main.27e209e0.chunk.js"
   },
   {
