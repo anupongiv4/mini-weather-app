@@ -7,7 +7,7 @@ class WeatherApp extends React.Component {
         super(props);
         this.state = {
             value: '',
-            place: 'Mini weather app',
+            place: 'Weather App',
             celsius: '',
             condition: 'Have a wonderful day!',
             icon: '03d'
@@ -33,7 +33,6 @@ class WeatherApp extends React.Component {
                 throw new Error('Request Failed!');
             }, networkError => console.log(networkError.message))
             .then(jsonResponse => {
-                console.log(jsonResponse);
                 const place = jsonResponse.name;
                 const condition = jsonResponse.weather[0].description;
                 const celsius = jsonResponse.main.temp;
