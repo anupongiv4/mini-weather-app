@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mini-weather-app/static/css/main.e166b7ab.chunk.css",
+    "main.css": "/mini-weather-app/static/css/main.a6a438bf.chunk.css",
     "main.js": "/mini-weather-app/static/js/main.8d23f459.chunk.js",
     "main.js.map": "/mini-weather-app/static/js/main.8d23f459.chunk.js.map",
     "runtime-main.js": "/mini-weather-app/static/js/runtime-main.06a8dd91.js",
@@ -8,15 +8,15 @@
     "static/js/2.de9a5ad0.chunk.js": "/mini-weather-app/static/js/2.de9a5ad0.chunk.js",
     "static/js/2.de9a5ad0.chunk.js.map": "/mini-weather-app/static/js/2.de9a5ad0.chunk.js.map",
     "index.html": "/mini-weather-app/index.html",
-    "precache-manifest.d6e456026a4de59b84390c18af665b3f.js": "/mini-weather-app/precache-manifest.d6e456026a4de59b84390c18af665b3f.js",
+    "precache-manifest.85e02ac1d6529328837163c99498690a.js": "/mini-weather-app/precache-manifest.85e02ac1d6529328837163c99498690a.js",
     "service-worker.js": "/mini-weather-app/service-worker.js",
-    "static/css/main.e166b7ab.chunk.css.map": "/mini-weather-app/static/css/main.e166b7ab.chunk.css.map",
+    "static/css/main.a6a438bf.chunk.css.map": "/mini-weather-app/static/css/main.a6a438bf.chunk.css.map",
     "static/js/2.de9a5ad0.chunk.js.LICENSE.txt": "/mini-weather-app/static/js/2.de9a5ad0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.06a8dd91.js",
     "static/js/2.de9a5ad0.chunk.js",
-    "static/css/main.e166b7ab.chunk.css",
+    "static/css/main.a6a438bf.chunk.css",
     "static/js/main.8d23f459.chunk.js"
   ]
 }
