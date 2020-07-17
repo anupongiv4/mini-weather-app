@@ -78,6 +78,15 @@ img {
     }
 }
 
+@media screen and (max-height: 667px) {
+    .content h2 {
+        padding: 10px;
+    }
+    .logo-am {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 800px) {
     .weatherBackground {
         height: unset;
